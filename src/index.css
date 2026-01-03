@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global polish */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply text-slate-800;
+}
